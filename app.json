@@ -15,7 +15,9 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.assesi.testassesi",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "package": "com.assesi.testassesi",
