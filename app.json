@@ -8,16 +8,18 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3C3636"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.assesi.testassesi",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
