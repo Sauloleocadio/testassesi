@@ -35,6 +35,7 @@ export default function App() {
       <Text style={styles.valueday}>{date}</Text>
       <Text style={styles.day}>Horário de chegada?</Text>
       <Text style={styles.valueday}>{hours}</Text>
+      <Text style={styles.point}>Assesi sistemas</Text>
       <StatusBar style="auto" />
     </View>
   );
